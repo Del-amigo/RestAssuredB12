@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/behru/IdeaProjects/RestAssuredB12">
+        <classes>
+            <class name="Basqar.CountryTest">
+                <methods>
+                    <include name="createTest"/>
+                    <include name="searchTest"/>
+                    <include name="searchTestNegative"/>
+                    <include name="createTestNegative"/>
+                    <include name="updateTest"/>
+                    <include name="deleteTest"/>
+                    <include name="updateTestNegative"/>
+                    <include name="searchTestNegativeAfterDelete"/>
+                    <include name="deleteTestNegative"/>
+                </methods>
+            </class>
+            <class name="GoRest.GoRestPostTests">
+                <methods>
+                    <include name="extactingListOfPosts"/>
+                    <include name="creatingPost"/>
+                    <include name="getUserId"/>
+                    <include name="updatePostById"/>
+                    <include name="deletePostById"/>
+                    <include name="getPostIdNegative"/>
+                </methods>
+            </class>
+            <class name="GoRest.GoRestUserTests">
+                <methods>
+                    <include name="extactingListOfUsers"/>
+                    <include name="extactingSpecificUser"/>
+                    <include name="creatingUser"/>
+                    <include name="getUserId"/>
+                    <include name="updateUserById"/>
+                    <include name="deleteUserById"/>
+                    <include name="getUserIdNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
