@@ -15,7 +15,6 @@ public class CountryTest {
     private Cookies cookies;
     private String id;
     private String randomName;
-    private String code;
 
     @BeforeClass
     public void init() {
@@ -40,7 +39,7 @@ public class CountryTest {
         Country body = new Country();
         randomName = randomText( 8 );
         body.setName( randomName );
-        code = randomText( 4 );
+        String code = randomText( 4 );
         body.setCode( code );
 
         id = given()
