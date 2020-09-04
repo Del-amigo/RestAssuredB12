@@ -3,19 +3,6 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/behru/IdeaProjects/RestAssuredB12">
         <classes>
-            <class name="Basqar.CountryTest">
-                <methods>
-                    <include name="createTest"/>
-                    <include name="searchTest"/>
-                    <include name="searchTestNegative"/>
-                    <include name="createTestNegative"/>
-                    <include name="updateTest"/>
-                    <include name="deleteTest"/>
-                    <include name="updateTestNegative"/>
-                    <include name="searchTestNegativeAfterDelete"/>
-                    <include name="deleteTestNegative"/>
-                </methods>
-            </class>
             <class name="GoRest.GoRestPostTests">
                 <methods>
                     <include name="extactingListOfPosts"/>
